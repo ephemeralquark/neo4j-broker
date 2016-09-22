@@ -1,0 +1,12 @@
+package com.humana.cloud.servicebroker.neo4j;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Neo4jBrokerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Neo4jBrokerApplication.class, args);
+	}
+}
